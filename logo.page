@@ -1,0 +1,51 @@
+Html
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Login Page</title>
+  <style>
+    body {
+      background: #f2f2f2;
+      font-family: Arial;
+    }
+    .login-box {
+      width: 300px;
+      margin: 100px auto;
+      background: white;
+      padding: 25px;
+      border-radius: 8px;
+      text-align: center;
+      box-shadow: 0 0 10px #ccc;
+    }
+    .login-box img {
+      width: 100px;
+      margin-bottom: 15px;
+    }
+    .login-box input {
+      width: 90%;
+      padding: 8px;
+      margin: 8px 0;
+    }
+    .login-box button {
+      width: 95%;
+      padding: 10px;
+      background: #3498db;
+      border: none;
+      color: white;
+      font-size: 16px;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="login-box">
+    <img src="logo.png" alt="Logo">
+    <h2>Login</h2>
+    <input type="text" placeholder="Username"><br>
+    <input type="password" placeholder="Password"><br>
+    <button>Login</button>
+    <p><a href="#">Forgot your password?</a></p>
+  </div>
+</body>
+</html>
