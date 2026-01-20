@@ -4,13 +4,19 @@
     <meta charset="UTF-8">
     <title>Login Page</title>
     <style>
+        .logo{
+            display: block;
+            margin: 0 auto 20px;
+            width: 120px;  
+        }  
         body {
             font-family: Arial, sans-serif;
-            background: #f4f6f8;
+            background: linear-gradient(135deg, #667eea, #764ba2);
             display: flex;
             justify-content: center;
             align-items: center;
             height: 100vh;
+            margin= 0;
         }
 
         .login-box {
@@ -59,7 +65,9 @@
 <body>
 
     <div class="login-box">
-        <h2>Login</h2>
+       <img src="./logo.png"class="logo"alt="Company
+          Logo">  
+       <h2>Login</h2>
         <form action="#" method="post">
             <input type="text" name="username" placeholder="Username" required>
             <input type="password" name="password" placeholder="Password" required>
